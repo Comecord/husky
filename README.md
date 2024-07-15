@@ -4,8 +4,11 @@
 Requires the [Pre-Commit.com](https://pre-commit.com/) Hook Management Framework.
 
 ## Using the hooks
-You need to first install the binary from here, go install github.com/icehuntmen/go-version-commit
+You need to first install the binary from here, 
 
+```bash
+go install github.com/icehuntmen/husky`
+```
 In the root directory of your project, create a VERSION file and specify the initial version, for example:
 
 **VERSION**
