@@ -7,7 +7,7 @@ Requires the [Pre-Commit.com](https://pre-commit.com/) Hook Management Framework
 You need to first install the binary from here, 
 
 ```bash
-go install github.com/icehuntmen/husky`
+go install github.com/icehuntmen/husky
 ```
 In the root directory of your project, create a VERSION file and specify the initial version, for example:
 
