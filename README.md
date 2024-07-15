@@ -19,11 +19,11 @@ You can copy/paste the following snippet into your `.pre-commit-config.yaml` fil
 ```yaml
 repos:
   - repo: https://github.com/icehuntmen/husky
-    rev: v1.0.1
+    rev: v1.0.3
     hooks:
       - id: increment-patch-version
         name: Increment Patch Version
-        entry: go run github.com/icehuntmen/husky@v1.0.1 patch
+        entry: go run github.com/icehuntmen/husky@v1.0.3 patch
         language: golang
         pass_filenames: false
         always_run: true
