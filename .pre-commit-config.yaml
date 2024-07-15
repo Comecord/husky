@@ -3,7 +3,7 @@ repos:
     hooks:
       - id: increment-patch-version
         name: Increment Patch Version
-        entry: go run version.go patch
+        entry: go run main.go patch
         language: golang
         pass_filenames: false
         always_run: true
