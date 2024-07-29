@@ -7,7 +7,7 @@ Requires the [Pre-Commit.com](https://pre-commit.com/) Hook Management Framework
 You need to first install the binary from here, 
 
 ```bash
-go install github.com/icehuntmen/husky
+go install github.com/comecord/husky
 ```
 In the root directory of your project, create a VERSION file and specify the initial version, for example:
 
@@ -21,12 +21,12 @@ You can copy/paste the following snippet into your `.pre-commit-config.yaml` fil
 **.pre-commit-config.yaml**
 ```yaml
 repos:
-  - repo: https://github.com/icehuntmen/husky
-    rev: v1.0.3
+  - repo: https://github.com/comecord/husky
+    rev: v1.0.4
     hooks:
       - id: increment-patch-version
         name: Increment Patch Version
-        entry: go run github.com/icehuntmen/husky@v1.0.3 patch
+        entry: go run github.com/comecord/husky@v1.0.4 patch
         language: golang
         pass_filenames: false
         always_run: true
