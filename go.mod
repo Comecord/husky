@@ -1,3 +1,3 @@
-module github.com/icehuntmen/husky
+module github.com/comecord/husky
 
 go 1.22
